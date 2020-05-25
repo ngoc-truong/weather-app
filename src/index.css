@@ -1,0 +1,64 @@
+:root {
+    --font: rgb(97, 97, 97);
+    --font-highlight: rgb(95, 106, 207);
+    --error: #fd748b;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    color: var(--font);
+}
+
+.app {
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    padding: 1em;
+}
+
+label, input, button {
+    margin: 0.5em;
+}
+
+h1 {
+    color: var(--font-highlight);
+}
+h1, h2, h3 {
+    letter-spacing: 0.05em;
+
+}
+
+button {
+    font-family: 'Karla', sans-serif;
+    padding: 0.4em 1em;
+}
+
+input {
+    width: 20%;
+    padding: 0.4em 0em 0.4em 0.4em;
+}
+
+input[ŧype="text"]{
+    padding-left: 10px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+#weather {
+    margin: 0 auto;
+    width: 25%;
+    padding: 1em;
+    box-shadow: 0 14px 28px rgba(100, 100, 100, 0.25), 0 10px 10px rgba(143, 143, 143, 0.22);
+}
+
+.error {
+    color: var(--error);
+}
